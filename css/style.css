@@ -1,0 +1,169 @@
+a {
+    color: white !important;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #FF6060 !important;
+}
+
+.video-header {
+    position: relative;
+    height: 100vh; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.background_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background_video video {
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0); /* Adjust background color and opacity as needed */
+    z-index: 1;
+}
+
+header {
+    height:938px;
+    background-color: rgba(0, 0, 0, 0); /* Adjust background color and opacity as needed */
+}
+
+.shadow_line {
+    height: 5px;
+}
+
+.header-image {
+    width: 100%;
+    object-position: center;
+    transform: scale(1.3);
+    transform-origin: center;
+    z-index: -1;
+    /* object-fit: center; */
+    /* height: 500px; */
+}
+
+img {
+    /* object-fit: cover; */
+    /* width: 100%; */
+    background-color: rgba(0, 0, 255, 0);
+}
+
+/* .section_element {
+    background: pink;
+} */
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.card-img-top {
+    border-radius: 25px 25px 0 0;
+    /* background: #eee url(../img/cupcakes_pink.png) no-repeat;
+    background-position: center; */
+}
+
+.card {
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    transition: transform 0.3s ease-in-out;
+    /* box-shadow: 0 10px 20px rgba(255, 179, 179, 0), 0 6px 6px rgba(255, 172, 172, 0.123); */
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(255, 179, 179, 0.363), 0 6px 6px rgba(255, 172, 172, 0);
+}
+
+.background_menu {
+    background: #FFE7E7;
+}
+
+.footer {
+    padding: 20px 0;
+    background: white !important;
+}
+
+.footer h5 {
+    margin-bottom: 15px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #FF6060;
+    text-decoration: none;
+}
+
+.footer .bi {
+    color: pink
+}
+
+.footer .bi:hover {
+    color: #eb3e3e;
+}
+
+.footer .bi {
+    font-size: 1.5rem;
+}
+
+header h1, header p {
+    color: white;
+}
+
+/* https://getcssscan.com/css-buttons-examples */
+.button-36 {
+    background-image: linear-gradient(92.88deg, #FF6868.16%, #FF6868 43.89%, #FF6868 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 3rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-36:hover {
+    background-image: linear-gradient(92.88deg, #eb5151.16%, #eb5151 43.89%, #eb5151 64.72%);
+    box-shadow: rgb(205, 63, 63) 0 1px 30px;
+    color: #FFFFFF;
+    transition-duration: .1s;
+  }
+  
+  @media (min-width: 768px) {
+    .button-36 {
+      padding: 0 2.6rem;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .header-image {
+        margin: 0 auto;
+    }
+}
+
+  button {
+    display: block;
+    margin: auto;
+  }
